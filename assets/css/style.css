@@ -24,8 +24,8 @@ p{
 
 .container{
    display: flex; 
-    flex-flow: row;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -64,4 +64,8 @@ p{
     width: 150px;
     height: 150px;
     padding: 5%;
+}
+#nome{
+    width: 10.8rem;
+
 }
